@@ -24,8 +24,7 @@ executables and change the RPATH of executables and libraries.
 ./configure --prefix=%{_prefix}
 make
 
-%ifnarch %arm
-# fixme: x86 specific parts in checks
+%if ! 0%{?qemu_user_space_build}
 make check
 %endif
 

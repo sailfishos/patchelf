@@ -1,3 +1,8 @@
+Fri Jan 20 14:28:00 UTC 2012 - carsten.munk@gmail.com
+
+- Switch to %if ! 0%{?qemu_user_space_build}   
+
+
 -------------------------------------------------------------------
 Tue Apr 20 17:08:40 UTC 2010 - jsmoeller@linuxfoundation.org
 
